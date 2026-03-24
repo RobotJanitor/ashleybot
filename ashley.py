@@ -202,8 +202,8 @@ async def on_message(message):
     if message.webhook_id:
         return
 
-    # 1% chance to do something
-    if random.random() < .01:
+    # 5% chance to do something
+    if random.random() < .05:
 
         action = random.choices([
             "react",
@@ -252,14 +252,15 @@ async def on_message(message):
         return
     
     #triggerword functions
-    if "based" in message.content.lower() and random.random() < .5:
+    words = message.content.split()
+    if "based" in words
 
         triggerreplies = [
             "based on what?"
         ]
         await message.reply(random.choice(triggerreplies))
         return
-    if "67" in message.content and random.random() < .67:
+    if "67" in words and
 
         triggerreplies = [
             "https://tenor.com/view/carmen-67-horror-lobotomy-corporation-limbus-company-gif-5478746985365957101",
