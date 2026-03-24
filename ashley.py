@@ -260,7 +260,7 @@ async def on_message(message):
         ]
         await message.reply(random.choice(triggerreplies))
         return
-    if "67" in words and
+    if "67" in words
 
         triggerreplies = [
             "https://tenor.com/view/carmen-67-horror-lobotomy-corporation-limbus-company-gif-5478746985365957101",
