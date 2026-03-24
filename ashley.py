@@ -253,14 +253,14 @@ async def on_message(message):
     
     #triggerword functions
     words = message.content.split()
-    if "based" in words
+    if "based" in words:
 
         triggerreplies = [
             "based on what?"
         ]
         await message.reply(random.choice(triggerreplies))
         return
-    if "67" in words
+    if "67" in words:
 
         triggerreplies = [
             "https://tenor.com/view/carmen-67-horror-lobotomy-corporation-limbus-company-gif-5478746985365957101",
