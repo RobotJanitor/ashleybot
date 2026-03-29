@@ -184,7 +184,6 @@ eightball_reply = [
     "NO",
     "no, cry about it",
 
-    "ask mori",
     "idk lol",
     "teehee",
     ":3"
